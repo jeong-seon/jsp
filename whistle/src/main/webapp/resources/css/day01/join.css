@@ -1,0 +1,100 @@
+@charset "UTF-8";
+.box60 {
+	display: inline-block;
+	width: 600px;
+}
+.title {
+	background-color: #e91e63;
+	color: white;
+	margin-bottom: 20px;
+	padding: 2px;
+}
+.border {
+	border: 1px solid gray;
+}
+.form01 {
+	display: inline-block;
+	width: 550px;
+	text-align: left;
+	padding: 20px;
+}
+.marginb10 {
+	margin-bottom: 10px;
+}
+.label {
+	display: inline-block;
+	width: 30%;
+	text-align: right;
+	font-size: 14pt;
+}
+.input {
+	display: inline-block!important;
+	width: 60%;
+	text-align: left;
+	margin-left: 5px;
+	padding: 5px;
+}
+.imgsize {
+	text-align: center;
+	width: 80px;
+	height: auto;
+}
+.buttonbox {
+	border: none;
+	text-align: center;
+	margin-top: 20px;
+}
+#rbtn {
+	display: inline-block;
+	background-color: #ff5722;
+	border: none;
+	color: white;
+	width: 200px;
+	height: 30px;
+	cursor: pointer;
+	float: left;
+}
+#hbtn {
+	display: inline-block;
+	background-color: #4caf50;
+	border: none;
+	color: white;
+	width: 200px;
+	height: 30px;
+	cursor: pointer;
+	float: left;
+}
+#jbtn {
+	 display: inline-block;
+	 background-color: #2196f3;
+	 border: none;
+	 color: white;
+	 width: 200px;
+	 height: 30px;
+	 cursor: pointer;
+	 float: left;
+}
+#idbtn {
+	display: inline-block;
+	background-color: #2196f3;
+	border: none;
+	color: white;
+	width: 19%;
+	height: 30px;
+	cursor: pointer;
+}
+.shadow {
+	box-shadow: 3px 3px 10px 3px rgba(170, 170, 170, 0.7);
+}
+#rbtn:hover {
+	background-color: gray;
+}
+#hbtn:hover {
+	background-color: gray;
+}
+#jbtn:hover {
+	background-color: gray;
+}
+#idbtn:hover {
+	background-color: gray;
+}
