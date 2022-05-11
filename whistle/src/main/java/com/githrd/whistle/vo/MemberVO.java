@@ -1,4 +1,4 @@
-package com.githrd.test.vo;
+package com.githrd.whistle.vo;
 
 import java.sql.Time;
 import java.text.SimpleDateFormat;

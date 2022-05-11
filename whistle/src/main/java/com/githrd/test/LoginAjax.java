@@ -8,7 +8,7 @@ import javax.servlet.http.*;
 
 import com.githrd.test.dao.MemberDao;
 
-@WebServlet("/test/loginAjax.pink")
+//@WebServlet("/test/loginAjax.pink")
 public class LoginAjax extends HttpServlet {
 	// req ==> 요청객체(Request) / resp ==> 응답객체(Response)
 	public void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {

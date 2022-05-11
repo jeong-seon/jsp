@@ -8,6 +8,9 @@ import javax.servlet.http.*;
 
 @WebServlet("/test/login.pink")
 public class Login extends HttpServlet {
+	public void init() throws ServletException {
+//		System.out.println("####### 로그인 페이지 요청 #######");
+	}
 	public void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		/*
 			로그인 여부는 session 객체에 속성을 입력하는 것으로 처리하는 것이 일반적.
