@@ -2,9 +2,12 @@
 $(document).ready(function(){
 	// home 버튼 클릭 이벤트
 	$('#hbtn').click(function(){
-		$(location).attr('href', '/whistle/');
+		$(location).attr('href', '/whistle/test/');
 	});
-	
+	// main.blp 로 이동 클릭이벤트
+	$('#mbtn').click(function(){
+		$(location).attr('href', '/whistle/main.blp');
+	});
 	// 리셋버튼 클릭이벤트
 	$('#rbtn').click(function(){
 		$('input').val('');

@@ -36,7 +36,7 @@ public class Login extends HttpServlet {
 			// 따라서 메인페이지(index)로 돌려보낸다.
 			// 이 작업은 지금 요청에서 메인페이지로 보내는 요청을 다시 만드는 작업.
 			// 따라서 redirect 하면 된다.
-			resp.sendRedirect("/whistle/");
+			resp.sendRedirect("/whistle/test/");
 		} else {
 			String view = "/WEB-INF/views/test/member/login.jsp";
 			RequestDispatcher rd = req.getRequestDispatcher(view);

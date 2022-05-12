@@ -39,9 +39,10 @@
 			</div>
 		</form>
 		<div class="w3-col w3-margin-top w3-card-4">
-			<div class="w3-third w3-button w3-red w3-hover-orange" id="hbtn">Home</div>
-			<div class="w3-third w3-button w3-blue w3-hover-aqua" id="lbtn">Login</div>
-			<div class="w3-third w3-button w3-purple w3-hover-pink" id="abtn">Ajax</div>
+			<div class="w3-quarter w3-button w3-red w3-hover-orange" id="hbtn">Home</div>
+			<div class="w3-quarter w3-button w3-yellow w3-hover-indigo" id="mbtn">Main</div>
+			<div class="w3-quarter w3-button w3-blue w3-hover-aqua" id="lbtn">Login</div>
+			<div class="w3-quarter w3-button w3-purple w3-hover-pink" id="abtn">Ajax</div>
 		</div>
 		<div class="w3-col w3-padding w3-card-4 w3-hide"><span id="msg">${SID} 님은 이미 로그인했습니다!!!</span></div>
 	</div>

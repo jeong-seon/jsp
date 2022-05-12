@@ -5,8 +5,14 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class MemberVO {
-	private int mno, avt, ano;
+	private int mno, ano, cnt;
 	private String name, id, pw, mail, tel, gen, aname, oname, savename, sdate;
+	public int getCnt() {
+		return cnt;
+	}
+	public void setCnt(int cnt) {
+		this.cnt = cnt;
+	}
 	public String getSavename() {
 		return savename;
 	}
@@ -20,12 +26,6 @@ public class MemberVO {
 	}
 	public void setMno(int mno) {
 		this.mno = mno;
-	}
-	public int getAvt() {
-		return avt;
-	}
-	public void setAvt(int avt) {
-		this.avt = avt;
 	}
 	public int getAno() {
 		return ano;
@@ -106,7 +106,7 @@ public class MemberVO {
 	}
 	@Override
 	public String toString() {
-		return "MemberVO [mno=" + mno + ", avt=" + avt + ", ano=" + ano + ", name=" + name + ", id=" + id + ", pw=" + pw
+		return "MemberVO [mno=" + mno + ", ano=" + ano + ", cnt=" + cnt + ", name=" + name + ", id=" + id + ", pw=" + pw
 				+ ", mail=" + mail + ", tel=" + tel + ", gen=" + gen + ", aname=" + aname + ", oname=" + oname
 				+ ", savename=" + savename + ", sdate=" + sdate + ", jdate=" + jdate + ", jtime=" + jtime + "]";
 	}
